@@ -1,0 +1,103 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kaushik/Downloads/SelfieBarracuda-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50553
+Successfully changed project path to: /Users/kaushik/Downloads/SelfieBarracuda-main
+/Users/kaushik/Downloads/SelfieBarracuda-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kaushik/Downloads/SelfieBarracuda-main/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-09 09:35:21.188 Unity[1700:28807] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-09 09:35:21.188 Unity[1700:28807] Metal devices available: 1
+2021-08-09 09:35:21.189 Unity[1700:28807] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-09 09:35:21.191 Unity[1700:28807] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.014260 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 9.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.504 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 11.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.237 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 612 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.9 MB.
+System memory in use after: 105.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1044.
+Total: 4.706464 ms (FindLiveObjects: 0.346835 ms CreateObjectMapping: 0.133707 ms MarkObjects: 4.096079 ms  DeleteObjects: 0.125897 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Test.jpg
+  artifactKey: Guid(1b14ca27ffb373048b334a15b6b2dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test.jpg using Guid(1b14ca27ffb373048b334a15b6b2dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5190c5a1b00e45ff23c93c3cd92d20') in 1.178096 seconds
+  Import took 1.184709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Room.jpg
+  artifactKey: Guid(d017ae28e6d8fd445b8a955069fd35ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room.jpg using Guid(d017ae28e6d8fd445b8a955069fd35ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfab80371144a24b28b887e3a1d5609c') in 0.019643 seconds
+  Import took 0.022472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.393355 seconds.
+  path: Assets/VirtualBackground.unity
+  artifactKey: Guid(b89a6bd4e1ae9b64baa2f6bca3ef26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualBackground.unity using Guid(b89a6bd4e1ae9b64baa2f6bca3ef26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba9014ff45473e9c3985ebcc7ed840') in 0.005172 seconds
+  Import took 0.008930 seconds .
+
